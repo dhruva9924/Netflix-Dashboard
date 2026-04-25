@@ -15,8 +15,6 @@ Give business users interactive exploring options.
 Sources of Data:
 CSV Files (Python-based web scraping)
 Metadata about the content (title, genre, cast, nation, ratings)
-Live Connection SQL Server
-Current data on streaming and content performance
 Functional Requirements
 KPI Cards: Total Shows, Total Countries, Total Number of Directors, All Genres, Beginning and Ending Years
 Type of Filters/Slicers: TV Show/Movie, Director, Genre, Release Year Range
@@ -32,7 +30,6 @@ Integration of Data
 CSV (Python-Scraped Web)
 Power Query was used to clean
 used for historical and static metadata
-SQL Server (Live Connection) through standard gateway
 used for updated or dynamic data
 DirectQuery or live connection ,Integrated through data modelling linkages Data Model
 Table of Facts TV series and films
@@ -78,7 +75,7 @@ The US produces the most content. Next in line are UK, India, Canada
 
 5. Issues Resolved
 Handled data refresh vs. real-time balance
-Combined multiple CSV + live SQL data
+Combined multiple CSV 
 Developed a scalable model for data in the future
 Enhanced performance in spite of mixed sources
-Configured Gateway in power BI service for automated refreshes.
+
